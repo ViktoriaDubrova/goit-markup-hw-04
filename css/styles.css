@@ -60,9 +60,10 @@ img {
 
 .link:hover {
     color: var(--color-link);
-    text-decoration-line: underline;
-}
 
+}
+/* text-decoration-line: underline; */
+ 
 a, li {
     list-style-type: none;
     text-decoration: none;
@@ -80,7 +81,7 @@ a, li {
 }
 
 .header {
-    border-bottom: 1px solid var(--primary-border-color);
+    border-bottom: 1px solid var(--color-text);
 }
 
 .header .container {
@@ -324,9 +325,10 @@ a, li {
 }
 
 .logo-footer {
-    padding: 0;
+
     margin-bottom: 16px;
 }
+/* padding: 0; */
 
 /* ---  BTN SECTION  --- */
 .btn-section {
