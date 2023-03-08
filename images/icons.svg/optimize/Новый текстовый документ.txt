@@ -1,2 +1,0 @@
-<link rel="stylesheet" href="https://i.icomoon.io/public/temp/eae4896963/UntitledProject/style-svg.css">
-<script defer src="https://i.icomoon.io/public/temp/eae4896963/UntitledProject/svgxuse.js"></script>
