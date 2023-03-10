@@ -272,12 +272,13 @@ a, li {
     margin-bottom: 8px;
     line-height: 0.83;
     letter-spacing: 0.02em;
-    padding-top: 8px;
+    margin-top: 8px;
 }
 
 .about-name-text {
     color: var(--description-tel-mail-color);
     font-weight: 400;
+    margin-bottom: 0px;
 
 } 
 
@@ -400,7 +401,7 @@ a, li {
 
 .customers-link {
 	color: #8e8f99;
-	border: 2px solid #8e8f99;
+	border: 1px solid #8e8f99;
 	border-radius: 4px;
 	width: 100%;
 	height: 100%;
@@ -416,18 +417,6 @@ a, li {
 
 .customers-icon {
 	fill: currentColor;
-}
-
-.modal-btn {
-    background: #F4F4FD;
-    color: var(--color-link);
-    border: 1px solid #e7e9fc;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding: 12px 24px; 
 }
 
 /* ---  FOOTER SECTION  --- */
@@ -471,6 +460,11 @@ a, li {
     color: var(--color-text); 
     margin-bottom: 16px; 
     max-width: 264px; 
+}
+
+.social-text {
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .icon {  
@@ -535,6 +529,11 @@ margin-bottom: 16px;
     padding: 12px 24px;
 }
 
+.modal-btn:hover,
+.modal-btn:focus {
+    box-shadow: var(--brand-color);
+}
+
 .btn:hover,
 .btn:focus {   
     background-color: #404BBF;
@@ -586,3 +585,4 @@ margin-bottom: 16px;
 .portfolio-text-small {
     color: #434455; 
 }
+
