@@ -532,14 +532,19 @@ margin-bottom: 16px;
 .modal-btn:hover,
 .modal-btn:focus {
     box-shadow: var(--brand-color);
+    background: var(--color-link);
+    color: var(--color-text);
+    border-color: var(--color-link);
 }
 
 .btn:hover,
 .btn:focus {   
-    background-color: #404BBF;
+    background-color: var(--ocean);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
         0px 2px 1px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+        color: var(--color-text);
+        border-color: var(--color-link);
 }
 
 /* ---  IMG SECTION  --- */
@@ -561,16 +566,10 @@ margin-bottom: 16px;
     border-top: none;
 }
 
-.img-list:hover {
+.img-sect-link:is(:hover,:focus){
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.modal-btn:hover {
-    background: var(--color-link);
-    color: var(--color-text);
-    border-color: var(--color-link);
 }
 
 .portfolio-text-large {
