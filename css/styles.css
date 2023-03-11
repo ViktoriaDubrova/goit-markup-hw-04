@@ -82,6 +82,10 @@ a, li {
 
 .header {
     border-bottom: 1px solid var(--color-text);
+    box-shadow: var(--brand-color);
+}
+.header:hover {
+    box-shadow: var(--brand-color);
 }
 
 .header .container {
@@ -278,7 +282,7 @@ a, li {
 .about-name-text {
     color: var(--description-tel-mail-color);
     font-weight: 400;
-    margin-bottom: 0px;
+    margin-bottom: 120px;
 
 } 
 
@@ -458,13 +462,17 @@ a, li {
 
 .footer-text { 
     color: var(--color-text); 
-    margin-bottom: 16px; 
     max-width: 264px; 
 }
 
 .social-text {
     font-family: inherit;
     font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .icon {  
@@ -566,10 +574,14 @@ margin-bottom: 16px;
     border-top: none;
 }
 
-.img-list:hover {
+/* .img-list:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 2px 1px rgba(46, 47, 66, 0.08);
+} */
+
+.img-sect-link {
+    display: block;
 }
 
 .img-sect-link:is(:hover,:focus){
